@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleCapture", "SimpleCapt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimplePlay", "SimplePlay\SimplePlay.vcxproj", "{58F63BD7-2098-4CD4-8E1E-E2E5B0A62995}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VF", "VF\VF.vcxproj", "{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -49,6 +51,12 @@ Global
 		{58F63BD7-2098-4CD4-8E1E-E2E5B0A62995}.Release|Win32.Build.0 = Release|Win32
 		{58F63BD7-2098-4CD4-8E1E-E2E5B0A62995}.Release|x64.ActiveCfg = Release|x64
 		{58F63BD7-2098-4CD4-8E1E-E2E5B0A62995}.Release|x64.Build.0 = Release|x64
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Debug|Win32.Build.0 = Debug|Win32
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Debug|x64.ActiveCfg = Debug|Win32
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Release|Win32.ActiveCfg = Release|Win32
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Release|Win32.Build.0 = Release|Win32
+		{ECDFB9A0-AB8A-4FA2-BD0A-8C82E4BFF6E9}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
