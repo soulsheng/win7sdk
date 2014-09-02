@@ -25,3 +25,6 @@
 /multimedia/mediafoundation/MFCaptureToFile/*.sdf
 /multimedia/mediafoundation/SimpleCapture/Debug
 /multimedia/mediafoundation/SimplePlay/Debug
+/multimedia/mediafoundation/VF/Debug
+/multimedia/mediafoundation/VF/Release
+/multimedia/mediafoundation/VF/*.user

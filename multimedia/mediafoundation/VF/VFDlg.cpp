@@ -15,6 +15,7 @@
 
 // CVFDlg 对话框
 
+#define URL_WEB_CAMERA		(L"rtsp://192.168.1.11:554/user=admin&password=admin&channel=1&stream=0.sdp?")
 
 
 
@@ -235,6 +236,8 @@ LRESULT CVFDlg::WindowProc(UINT message, WPARAM wParam, LPARAM lParam)
 		              this->MessageBox(L"播放模块初始化失败，程序即将关闭",L"vfp");
 		              PostMessage(WM_CLOSE,0,0);
             }
+
+			vfp->OpenURL( URL_WEB_CAMERA );
 		}
 		break;
 	case WM_OPENCOMMAND:
